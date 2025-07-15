@@ -1,0 +1,68 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Estilos personalizados para MercadoLibre */
+:root {
+  --ml-yellow: #FFE600;
+  --ml-blue: #3483FA;
+  --ml-light-blue: #E6F3FF;
+}
+
+.bg-ml-yellow {
+  background-color: var(--ml-yellow) !important;
+}
+
+.bg-ml-blue {
+  background-color: var(--ml-blue) !important;
+}
+
+.text-ml-blue {
+  color: var(--ml-blue) !important;
+}
+
+.btn-ml-primary {
+  background-color: var(--ml-blue);
+  border-color: var(--ml-blue);
+  color: white;
+}
+
+.btn-ml-primary:hover {
+  background-color: #2968c8;
+  border-color: #2968c8;
+}
+
+.card-hover {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.carousel-item img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.category-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.navbar-ml {
+  background-color: var(--ml-yellow) !important;
+}
+
+.top-bar {
+  background-color: #f8f9fa;
+  font-size: 0.875rem;
+}

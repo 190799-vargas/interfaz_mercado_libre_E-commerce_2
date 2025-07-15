@@ -1,5 +1,7 @@
 # Clon de MercadoLibre - Guía de Instalación y Configuración
 
+![alt text](image.png)
+
 ## Descripción
 Este es un clon completo de MercadoLibre desarrollado con React + TypeScript en el frontend y Django + PostgreSQL en el backend.
 
