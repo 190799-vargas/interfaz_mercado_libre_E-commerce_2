@@ -272,6 +272,9 @@ npm install
 4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
 5. Crear Pull Request
 
+## Autor
+Victor Alfonso Vargas Diaz
+
 ## Licencia
 
 Este proyecto es de código abierto y está disponible bajo la licencia MIT.
